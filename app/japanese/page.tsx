@@ -57,12 +57,13 @@ export default function page() {
                 </div>
             </div>
 
-            <div className="grid grid-cols-3 gap-10 max-w-5xl ">
+            <div className="grid grid-cols-3 gap-10 max-w-6xl ">
             <ModeCard
             title="Reading"
             example="ねこ → neko"
-            description="Convert Japanese to romanji"
-            href="/japanese/reading"
+            description="Convert Japanese to romaji"
+            href={`/japanese/reading?jlpt=${jlpt.join(",")}&script=${script.join(",")}`}
+            active={true}
             />
 
             <ModeCard
@@ -70,6 +71,7 @@ export default function page() {
             example="ねこ → cat"
             description="Understand meanings"
             href="/japanese/recognition"
+            active={false}
             />
 
             <ModeCard
@@ -77,6 +79,7 @@ export default function page() {
             example="cat → ねこ"
             description="Test your memory"
             href="/japanese/recall"
+            active={false}
             />
 
             <ModeCard
@@ -84,6 +87,7 @@ export default function page() {
             example="わたしは学生です → I am a student"
             description="Understand full sentences"
             href="/japanese/sentence"
+            active={false}
             />
 
             <ModeCard
@@ -91,6 +95,7 @@ export default function page() {
             example="60 second challenge"
             description="Answer as many as possible"
             href="/japanese/speed"
+            active={false}
             />
 
             </div>

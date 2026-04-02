@@ -23,7 +23,7 @@ export default function Sidebar() {
 
       <nav className="flex flex-col gap-2">
         {navItems.map((item) => {
-          const isActive = pathname === item.path;
+          const isActive = item.path === "/" ? pathname === "/" : pathname.startsWith(item.path);
 
           return (
             <Link

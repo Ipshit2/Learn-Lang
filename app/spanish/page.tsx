@@ -38,13 +38,14 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-10 max-w-5xl">
+      <div className="grid grid-cols-3 gap-10 max-w-6xl">
         
         <ModeCard
           title="Spelling"
           example="cat → gato"
           description="Write Spanish from English"
           href="/spanish/spelling"
+          active={false}
         />
 
         <ModeCard
@@ -52,6 +53,7 @@ export default function Page() {
           example="gato → cat"
           description="Understand meanings"
           href="/spanish/recognition"
+          active={false}
         />
 
         <ModeCard
@@ -59,6 +61,7 @@ export default function Page() {
           example="Yo soy estudiante → I am a student"
           description="Understand full sentences"
           href="/spanish/sentence"
+          active={false}
         />
 
         <ModeCard
@@ -66,6 +69,7 @@ export default function Page() {
           example="60 second challenge"
           description="Answer as many as possible"
           href="/spanish/speed"
+          active={false}
         />
 
       </div>
