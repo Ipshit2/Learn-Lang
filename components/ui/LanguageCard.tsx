@@ -17,7 +17,7 @@ export default function LanguageCard({
   color,
 }: Props) {
   return (
-    <div className="bg-[#191c20] rounded-3xl p-8 w-full h-full flex flex-col justify-between border border-[#272a2f]">
+    <div className="bg-[#191c20] hover:bg-[#1d2025] transition-all duration-200 rounded-xl p-8 w-full h-full flex flex-col justify-between border border-[#272a2f]">
         <div className="flex items-center gap-3">
             <ReactCountryFlag
             countryCode={countryCode}

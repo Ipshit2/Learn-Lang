@@ -33,7 +33,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${inter.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col ">
-        <div className="flex py-20 px-10">
+        <div className="flex py-20 px-5">
           <Sidebar/>
           <main className="flex-1 p-6 text-[#E6EDF3]">
             {children}

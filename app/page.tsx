@@ -1,6 +1,6 @@
 import LanguageCard from "../components/ui/LanguageCard";
 
-export default function Home() {
+export default function page() {
   return (
     <div className=" m-20 font-Inter">
       
