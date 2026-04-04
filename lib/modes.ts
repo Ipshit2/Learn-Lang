@@ -41,13 +41,14 @@ export const MODES = {
     title: "Recall",
     description: "Test your memory",
 
-    output: ["meaning", "word"],
+    output: ["meaning", "word","pronunciation"],
 
     smallprompt: `
     The user will see a meaning and must recall the correct word.
 
     - "meaning" = English meaning
     - "word" = correct word in target language
+    -"pronunciation" = phonetic pronunciation in Latin script
     `,
   },
 

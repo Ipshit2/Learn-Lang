@@ -67,19 +67,19 @@ export default function page() {
             />
 
             <ModeCard
-            title="Recognition"
-            example="ねこ → cat"
-            description="Understand meanings"
-            href="/japanese/recognition"
-            active={false}
-            />
-
-            <ModeCard
             title="Recall"
             example="cat → ねこ"
             description="Test your memory"
             href="/japanese/recall"
-            active={false}
+            active={true}
+            />
+
+            <ModeCard
+            title="Recognition"
+            example="ねこ → cat"
+            description="Understand meanings"
+            href="/japanese/recognition"
+            active={true}
             />
 
             <ModeCard
