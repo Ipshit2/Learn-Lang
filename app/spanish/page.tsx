@@ -41,11 +41,11 @@ export default function Page() {
       <div className="grid grid-cols-3 gap-10 max-w-6xl">
         
         <ModeCard
-          title="Spelling"
+          title="Recall"
           example="cat → gato"
           description="Write Spanish from English"
-          href="/spanish/spelling"
-          active={false}
+          href="/spanish/recall"
+          active={true}
         />
 
         <ModeCard
